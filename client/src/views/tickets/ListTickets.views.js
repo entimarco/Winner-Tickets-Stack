@@ -14,7 +14,7 @@ export const ListTickets = () => {
   const navigate = useNavigate();
   
   useEffect(()=>{
-    axios.get('api/ticket/getTickets').then(res=>{
+    axios.get('https://winnertickets.onrender.com/api/ticket/getTickets').then(res=>{
         //console.log(res.data)
         setTicketdata(res.data)
     }).catch(err=>{
