@@ -33,7 +33,7 @@ export const RegistreForm = ({handleOnChange,firstname,lastname,password,Rpasswo
                 
                 
                 console.log ('Registre user')
-                axios.post('/api/login/RegistreUser', user,{
+                axios.post('https://winnertickets.onrender.com/api/login/RegistreUser', user,{
                     
                 }).then(res =>{
                     alert(res.data);

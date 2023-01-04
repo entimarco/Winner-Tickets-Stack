@@ -20,7 +20,7 @@ export const TicketForm = ({handleOnSubmit,handleOnChange,staffComments}) => {
   
 
   useEffect(()=>{
-    axios.post('/api/ticket/getTicketData',{idticket : params.idTicket}).then(res=>{
+    axios.post('https://winnertickets.onrender.com/api/ticket/getTicketData',{idticket : params.idTicket}).then(res=>{
       //console.log(res.data[0])
       const dataTicket = res.data[0];
       setticketEmail(dataTicket.email)
