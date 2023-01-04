@@ -1,0 +1,45 @@
+.ticket-header{
+    background-color: #464b52;
+    background: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.ticket-body{
+  background-color: #464b52;
+  background-size: 100;
+}
+
+.ticket-table{
+  background-color: #14213d;
+  table-layout: fixed;
+  width: 80%;
+  height: 70%;
+}
+
+.mid-input{
+  font-size: 12px;
+  padding: 2px 5px;
+}
+
+.ticket-panel{
+  width: 60%;
+  height: 80%;
+  background-color: #14213d;
+  box-shadow: 0px 0px 20px -5px;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+  font-size: calc(10px + 2vmin);
+}
+
+.text{
+
+}
