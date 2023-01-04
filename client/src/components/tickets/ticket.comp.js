@@ -45,7 +45,7 @@ export const TicketForm = ({handleOnSubmit,handleOnChange,staffComments}) => {
 
     console.log(editData)
 
-    axios.post('/api/ticket/editTicketData',editData).then(res=>{
+    axios.post('https://winnertickets.onrender.com/api/ticket/editTicketData',editData).then(res=>{
       //console.log(res.data)
       alert(res.data)
        navigate('/TicketList');
