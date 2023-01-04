@@ -25,7 +25,7 @@ export const AddTicketForm = ({handleOnChange, handleOnSubmit, ticketEmail, prod
     //debugger
     if (ticketEmail.length!== 0 && description.length!== 0 && product.length!== 0){
       console.log ('sending tickets')
-      axios.post('/api/ticket/addTicket', ticket,{
+      axios.post('https://winnertickets.onrender.com/api/ticket/addTicket', ticket,{
       }).then(res =>{
         alert(res.data)
         window.location.reload(true)
