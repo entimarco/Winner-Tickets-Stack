@@ -16,7 +16,7 @@ function App() {
     <div className="App">
 
       <Navbar collapseOnSelect expand="lg" variant="dark" bg ="dark">
-        <Navbar.Brand>Winner Tikets</Navbar.Brand>
+        <Navbar.Brand><Nav.Link as={NavLink} to ="/">Winner Tickets</Nav.Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
